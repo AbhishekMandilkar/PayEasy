@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+       
+        <title>PayEasy</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="stylesheet" href="./src/styles.css">
+    </head>
+    <body>
+        <section id="title">    
+            <div class="container-fluid">
+            <!-- Nav Bar -->
+                 
+            <nav class="navbar navbar-expand-lg navbar-light">
+                
+              <a class="navbar-brand" style="color: #445fea" href="">PayEasy</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#featuresSection">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              
+             <!-- Catch Phrase  -->
+             <div class="catchLine">
+                 <h2>Hassle free payments <br> Anytime.Anywhere</h2>   
+                 <p style="padding-left:40px;font-size: 20px;">PayEasy is a easy way to accept and send payments to a Retailer <br> as well as a person with just a tap</p>
+                <button type="button"  onclick="location.href='signup.html'" class="btn btn-primary btn-lg"><i class="fas fa-user-plus fa-sm"></i> Create Account</button>
+               
+             </div>
+             
+              <!-- Mockups -->
+              <div class="">
+                <img src="./src/images/vectors/introVector.jpg" alt="">
+              </div>
+              
+            </div>
+        </section>
+        <section id="featuresSection">
+          <div class="features">
+
+            <div class="row">
+            <div class="col-sm-12 divine-projects-title">
+            <h2>Features</h2>
+            </div>        
+            </div>
+            
+            
+            <div class="row">
+            <div class="col-sm-4 features-description ">
+              <i class="fas fa-shield-alt fa-5x"></i>
+              <h3>Titan M secured</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae semper nulla. Nunc tempus consequat blandit.</p>
+            </div>
+            <div class="col-sm-4 features-description">
+              <i class="fas fa-rupee-sign fa-5x"></i>
+              <h3>Payment Method</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae semper nulla. Nunc tempus consequat blandit.</p>
+            </div>
+            <div class="col-sm-4 features-description">
+              <i class="fas fa-credit-card fa-5x"></i>
+              <h3>Saved Card</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae semper nulla. Nunc tempus consequat blandit.</p>
+            </div>
+            </div>
+            
+            </div>
+            <div class="brand-logos">
+             
+              <img src="./src/images/upi.png" class="logo" alt="">
+            
+              <img src="./src/images/paypal.png" class="logo" alt="">
+
+              <img src="./src/images/visa.png" class="logo" alt="">
+
+              <img src="./src/images/mastercard.png" class="logo" alt="">
+
+              <img src="./src/images/paytm.png" class="logo"alt="">
+
+              <img src="./src/images/bankTransfer.png" class="logo"alt="" alt="">
+          </div> 
+        </section>  
+
+      <section class="ContactSection">
+        <div class="contact">
+          <h2>Need more help?</h2>
+          <div class="form-container">
+              <p>Fill out a form.....</p><br>
+              <button type="button"  onclick="location.href ='contactUs.html'" class="btn btn-success link-button">click here</button>
+          </div>
+          <div class="social-media">
+              <p>contact us through....</p><br>
+              <!-- <button type="button" class="btn btn-primary link-button"><i class="fab fa-facebook-f"></i></button>
+              <button type="button" class="btn btn-danger link-button">hi</button>
+              <button type="button" class="btn btn-primary link-button">hi</button>
+              <button type="button" class="btn btn-primary link-button">hi</button> -->
+              <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn-floating btn-lg btn-ins" style="color: red" type="button" role="button"><i class="fab fa-instagram"></i></a>
+              <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
+              <a class="btn-floating btn-lg btn-whatsapp" style="color: green" type="button" role="button"><i class="fab fa-whatsapp"></i></a>
+              <a class="btn-floating btn-lg btn-email" type="button" role="button"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+      </section>  
+    </body>
+</html>
+
